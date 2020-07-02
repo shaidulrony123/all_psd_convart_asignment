@@ -1,0 +1,332 @@
+/***************************************************************
+Project Name: PSD TO HTML
+Author Name: Team Member
+Client Name: LEDP-2020 D2
+Project Date: 28-06-2020
+Project Type: Exam
+Project Section:
+				1.Top Header
+				2.Nav Header
+				
+				
+				9.Footer Section
+**************************************************************/
+/**************************************************************
+                  Basic Css start
+**************************************************************/
+*,body{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/**************************************************************
+                  Basic Css End
+**************************************************************/
+
+/**************************************************************
+                   Common Css Start
+**************************************************************/
+.first_color{
+	color: #56ab2f;
+}
+.first_bg_color{
+	background-color: #56ab2f;
+}
+/**************************************************************
+                   Common Css End
+**************************************************************/
+/**************************************************************
+                   Top header start
+**************************************************************/
+#top{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	z-index:22222;
+	position: sticky;
+	top: -60px;
+}
+.top_list{
+	list-style: none;
+}
+.top_list li{
+	padding-left: 10px;
+}
+.top_list li:first-child{
+	padding-left: 0px !important;
+}
+.login_border{
+	padding-left: 10px;
+	color: #c7c7c7;
+}
+/**************************************************************
+                   Top header start
+**************************************************************/
+/**************************************************************
+                   Nav bar start
+**************************************************************/
+.custom_nv_bg_col{
+	background:rgba(254, 255, 255, .9);
+}
+.navsection{
+	
+	position:sticky;
+	top:0;
+	z-index:1111;
+
+}
+.navbar{
+	padding-left: 0px !important;
+	z-index: 11111;
+}
+.nav-link{
+	font-weight:bold !important;
+}
+.active .nav-link{
+	color:#56ab2f !important;
+}
+.nav-link:focus{
+	color:#56ab2f !important;
+}
+/**************************************************************
+                   Nav bar End
+**************************************************************/
+
+
+
+
+/************************************************************
+                            footer  Start                           
+************************************************************/
+.footer{
+	
+	background-color: #1e1d1d;
+}
+.custom_padding_footer{
+	padding-top: 70px;
+}
+.custom_padding_l{
+	padding: 10px;
+	padding-left: 50px;
+}
+.custom_padding_t{
+	padding-top: 10px;
+}
+.list{
+	list-style: none;
+	padding-top: 20px;
+}
+.footer_text{
+	padding-top: 25px;
+}
+.image{
+	padding-top: 10px !important;
+}
+.col-4{
+	padding-bottom: 25px;
+}
+.footer .list li{
+	color: white;
+	padding-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.col-6{
+	padding-left: 0px !important; 
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}
+.custom_list{
+	padding-top: 0px !important;
+	text-align: right !important;
+	padding-left: 160px !important;
+}
+.custom_list li {
+	height: 35px !important;
+	width: 35px !important;
+	background-color: transparent;
+	border: 1px solid #56ab2f;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+.custom_list li a{
+	text-align: center;
+	padding-right: 0px;
+	font-size: 12px;
+	color: white;
+}
+.social_icon{
+	padding-right: 3px;
+
+}
+.custom_list li a:first-child{
+	
+	padding-right: 10px;
+}
+.custom_list li a:hover{
+	color: #56ab2f;
+
+}
+/************************************************************
+                            footer End                             
+************************************************************/
+
+/************************************************************
+                            Contact Page css start                             
+************************************************************/
+.banner{
+	background-image: url("../assets/img/bg.png");
+text-align: center;
+height: 250px;
+}
+.contact_text{
+	padding-top: 88px;
+	color:white;
+}
+.contact_details h3{
+	text-align: center;
+	padding-top: 80px;
+}
+.contact_list li{
+	list-style: none;
+}
+.contact_details{
+	padding-bottom: 77px;
+}
+/************************************************************
+                            Contact Page css End                             
+************************************************************/
+/************************************************************
+                            Course Page css start                            
+************************************************************/
+
+
+/************************************************************
+                            Course Page css End                             
+************************************************************/
+/************************************************************
+                            Teacher page start                             
+************************************************************/
+#container
+{
+	float: left;
+	width: 100%;
+	background-image: url("../img/contact/banner.png");
+	height: 200px;
+}
+#container h3
+{
+	color:white;
+}
+#container p
+{
+	color: white;
+	margin-bottom: 30px;
+}
+#head h2
+{
+	float: left;
+	margin-top: 30px;
+	margin-left:60px;
+	font-weight: bold;
+}
+#row
+{
+	clear: both;
+	float: left;
+	display: inline-flex;
+}
+#row1
+{
+	margin-top: 20px;
+	clear: both;
+	float: left;
+	display: inline-flex;
+}
+#row2
+{
+	margin-top: 20px;
+	clear: both;
+	float: left;
+	display: inline-flex;
+}
+#col1
+{
+	margin-left: 60px;
+	border:1px solid black;
+text-align: center;
+width: 45%;
+}
+#col1 img
+{
+	margin-top: 10px;
+	border:2px solid white;
+}
+#col1 i
+{
+	padding-right: 15px;
+}
+#col2
+{
+	margin-left: 60px;
+	border:1px solid black;
+text-align: center;
+width: 45%;
+}
+#col2 img
+{
+	margin-top: 10px;
+	border:2px solid white;
+}
+#col2 i
+{
+	padding-right: 15px;
+}
+#col3
+{
+	margin-left: 60px;
+	border:1px solid black;
+text-align: center;
+width: 45%;
+}
+#col3 img
+{
+	margin-top: 10px;
+	border:2px solid white;
+}
+#col3 i
+{
+	padding-right: 15px;
+}
+
+
+#subtitle
+{
+margin-top: 40px;
+	float: left;
+	clear: both;
+	background-color: #56ab2f;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#subtitle h1
+{
+	margin-top:30px;
+	font-weight: bold;
+}
+
+/************************************************************
+                            Teacher page end                            
+************************************************************/
